@@ -3,10 +3,10 @@ def generator
     num = Random.rand(100)
     puts "Score: #{num}%"
     if num >= 65
-        #puts "You passed!!!"
+        #You passed!!!
         return true
     elsif num <= 65
-        #puts "You failed..."
+        #You failed...
         return false
     end 
 end 
