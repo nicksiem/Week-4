@@ -30,12 +30,10 @@ while entry != 3
         puts
         
     elsif entry == 3
+        puts "Good bye..."
         break
         
     else
         print "Enter 1 to add, 2 to search, 3 to quit: "
     end
 end
-puts "Good bye..."
-
-
