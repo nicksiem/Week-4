@@ -3,10 +3,12 @@
 class Pet
     attr_accessor :name
     attr_accessor :type
+    
     def initialize(name, type)
         @name = name
         @type = type
     end
+    
     def to_s
         return "Pet's name is #{name} and is a #{type}"
     end
@@ -17,6 +19,8 @@ dog = Pet.new("Romeo", "dog")
 puts dog
 cat = Pet.new("Felix", "cat")
 puts cat
+fish = Pet.new("Bubbles", "fish")
+puts fish
 
 #changing dog name attribute
 dog.name = "Kramer"
