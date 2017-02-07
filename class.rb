@@ -10,7 +10,7 @@ class Pet
     end
     
     def to_s
-        return "Pet's name is #{name} and is a #{type}"
+        return "Pet's name is #{@name} and is a #{@type}"
     end
 end 
 
