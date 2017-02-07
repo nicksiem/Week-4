@@ -1,7 +1,8 @@
-list = Hash["John", "nice", "Sarah", "nice", "Chris", "naughty"]
+list = {"John" ==>"nice", "Sarah" ==>"nice", "Chris" ==> "naughty"}
 puts "****Naught or Nice List****"
 
 def print_list(list)
+    list.each{|key,value| puts "#{key}: #{value}"}
     for key, value in list
         puts key + " " + value
     end
@@ -16,8 +17,7 @@ while entry != 3
     if entry == 1
         print "Enter name to add: "
         name = gets. chomp
-        puts
-        print "Enter 'naughty' or 'nice':"
+        print "Enter 'naughty' or 'nice': "
         n = gets.chomp
         list[name] = n
         puts "The new list:"
