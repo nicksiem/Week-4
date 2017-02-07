@@ -1,11 +1,8 @@
-list = {"John" ==>"nice", "Sarah" ==>"nice", "Chris" ==> "naughty"}
+list = {"John" => "nice", "Sarah" => "nice", "Chris" => "naughty"}
 puts "****Naught or Nice List****"
 
 def print_list(list)
     list.each{|key,value| puts "#{key}: #{value}"}
-    for key, value in list
-        puts key + " " + value
-    end
     puts
 end
 print_list(list)
