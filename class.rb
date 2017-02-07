@@ -1,4 +1,5 @@
 #First class program in ruby
+#prints out the name and type of pet
 class Pet
     attr_accessor :name
     attr_accessor :type
