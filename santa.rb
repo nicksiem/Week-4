@@ -24,7 +24,7 @@ while entry != 3
         print_list(list)
         
     elsif entry == 2
-        print "Enter name to search for niceness: "
+        print "Enter name to search: "
         name = gets.chomp
         puts "#{name} is #{list[name]}"
         puts
