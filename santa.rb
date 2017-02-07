@@ -1,3 +1,5 @@
+#Naughty or Nice list using Hashes
+
 list = {"John" => "nice", "Sarah" => "nice", "Chris" => "naughty"}
 puts "****Naught or Nice List****"
 

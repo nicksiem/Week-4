@@ -1,3 +1,4 @@
+#First class program in ruby
 class Pet
     attr_accessor :name
     attr_accessor :type
@@ -10,6 +11,7 @@ class Pet
     end
 end 
 
+#create the pet objects
 dog = Pet.new("Romeo", "dog")
 puts dog
 cat = Pet.new("Felix", "cat")
