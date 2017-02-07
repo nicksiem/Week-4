@@ -22,8 +22,7 @@ puts cat
 fish = Pet.new("Bubbles", "fish")
 puts fish
 
-#changing dog name attribute
-dog.name = "Kramer"
+#changing dog type attribute
 dog.type = "good dog"
 puts dog
         
